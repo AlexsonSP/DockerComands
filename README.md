@@ -2,10 +2,10 @@
 Comandos docker que mais uso
 
 # Comandos relacionados às informações
-docker version - exibe a versão do docker que está instalada.
-docker inspect ID_CONTAINER - retorna diversas informações sobre o container.
-docker ps - exibe todos os containers em execução no momento.
-docker ps -a - exibe todos os containers, independentemente de estarem em execução ou não.
+- docker version - exibe a versão do docker que está instalada.
+- docker inspect ID_CONTAINER - retorna diversas informações sobre o container.
+- docker ps - exibe todos os containers em execução no momento.
+- docker ps -a - exibe todos os containers, independentemente de estarem em execução ou não.
 
 # Comandos relacionados à execução
 docker run NOME_DA_IMAGEM - cria um container com a respectiva imagem passada como parâmetro.
