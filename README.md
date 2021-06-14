@@ -2,7 +2,7 @@
 Comandos docker que mais uso
 
 # Comandos relacionados às informações
- - exibe a versão do docker que está instalada.
+- exibe a versão do docker que está instalada.
   ```
      docker version
   ```
@@ -24,9 +24,9 @@ Comandos docker que mais uso
   ```
      docker run NOME_DA_IMAGEM
   ```
--it NOME_DA_IMAGEM - conecta o terminal que estamos utilizando com o do container.
+- conecta o terminal que estamos utilizando com o do container.
   ```
-     docker run
+     docker run it NOME_DA_IMAGEM
   ```
 - ao executar, dá um nome ao container e define uma porta aleatória.
   ```
