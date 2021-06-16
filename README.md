@@ -3,21 +3,21 @@ Comandos docker que mais uso
 
 # Comandos relacionados às informações
 - exibe a versão do docker que está instalada.
-  ```
+```
 docker version
-  ```
+```
 - retorna diversas informações sobre o container.
-  ```
+```
 docker inspect ID_CONTAINER
-  ```
+```
 - exibe todos os containers em execução no momento.
-  ```
+```
 docker ps
-  ```
+```
 - exibe todos os containers, independentemente de estarem em execução ou não.
-  ```
+```
 docker ps -a
-  ```
+```
 
 # Comandos relacionados à execução
 - cria um container com a respectiva imagem passada como parâmetro.
