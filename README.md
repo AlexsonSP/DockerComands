@@ -76,7 +76,10 @@ docker container prune
 ```
 docker rmi NOME_DA_IMAGEM
 ```
-
+- Remove todas as imagens
+```
+docker rmi $(docker images -q)
+```
 # Comandos relacionados à construção de Dockerfile
 - cria uma imagem a partir de um Dockerfile.
 ```
