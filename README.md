@@ -44,6 +44,10 @@ docker run -v "CAMINHO_VOLUME" NOME_DA_IMAGEM
 ```
 docker run -it --name NOME_CONTAINER --network NOME_DA_REDE NOME_IMAGEM
 ```
+- Conectar via SSH em um conteiner
+```
+docker exec -it <container name> /bin/bash
+```
 
 # Comandos relacionados à inicialização/interrupção
 - inicia o container com id em questão.
